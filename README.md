@@ -18,6 +18,9 @@ One 'hiden' system button allows access to the system-menu for 1-sound level, 2-
 
 For normal use, nothing special to do, just power it up, wait for the boot sequence to complete, and start having fun!
 
+To access the system menu, once booted-up, press and hold the menu switch a few seconds until first menu sound (for volume configuration), or way further for the Ultra-Bash menu.
+In either menu, use de Red and Green buttons to change the setting, then wait for the timeout to exit back to user-mode.
+
 The system requires:
 - Arduino-Nano (or Arduino-uno if you decide not to use the provided PCB design)
 - DFPlayer-Mini
@@ -33,3 +36,10 @@ The system requires:
 - based on your personal preference, you might also want to use an audio pozer amplifier 
 - some connectors and cables
 - Bright flashing/strobe lights
+
+A minimum set of audio samples is provided. Put them 'as is' on a FAT32 formated microSD card.
+Let me know of your created audio files so we can share..
+
+PCB
+All the required Geberit files are provided for you to get your PCB printed.
+I have designed the PCB to make it as universal and versatile as possible. This whay it can be used for many other projects...
