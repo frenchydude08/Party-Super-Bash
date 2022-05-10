@@ -9,17 +9,17 @@ You've got three big iluminated slam-buttons at your disposal:
 - Blue to bring up the heat and ambiance things up!
 - Green to highlight your wins!
 - Red to bash your opoments when they miserably fail!!
-(one extra sound folder exists so you can activate an additional set of adults-only sounds to ultra-bash at your will - requires hiden activation).
+(one extra sound folder exists so you can activate an additional set of adults-only sounds to Ultra-Bash at your will - requires hiden activation after each restart).
 
-Note that one output is configured to power flashing/strobe lights when Blue, Green and Ultra-bash are activated.
-All 4 outputs can be jumper-configured to output 5v or 12v (make sure your power supply can cope with the current draw..)
+Note that one output is configured to power flashing/strobe lights when Blue, Green and Ultra-Bash are activated.
+All 4 outputs can be jumper-configured to output 5v or 12v (make sure your power supply and DC-DC Buck converter can cope with the current draw..)
 
-One 'hiden' system button allows access to the system-menu for 1-sound level, 2-activate/deactivate the ultra-bash sounds.
+One 'hiden' system button allows access to the system-menus: 1-sound level (adjust -/+ ) default is 27/30; 2-activate/deactivate the Ultra-Bash sounds (deactivated by default).
 
 For normal use, nothing special to do, just power it up, wait for the boot sequence to complete, and start having fun!
 
 To access the system menu, once booted-up, press and hold the menu switch a few seconds until first menu sound (for volume configuration), or way further for the Ultra-Bash menu.
-In either menu, use de Red and Green buttons to change the setting, then wait for the timeout to exit back to user-mode.
+In either menu, use de Red and Green buttons to change the setting, then wait for the timeout to exit back to the user-mode.
 
 The system requires:
 - Arduino-Nano (or Arduino-uno if you decide not to use the provided PCB design)
@@ -37,9 +37,12 @@ The system requires:
 - some connectors and cables
 - Bright flashing/strobe lights
 
-A minimum set of audio samples is provided. Put them 'as is' on a FAT32 formated microSD card.
-Let me know of your created audio files so we can share..
+A minimum set of audio samples is provided. Unzip and put them 'as is' on a FAT32 formated microSD card (01, 02, 03, 04 and 05 folders at the root).
+Let me know of your created audio files so we can share them..
 
 PCB
 All the required Geberit files are provided for you to get your PCB printed.
 I have designed the PCB to make it as universal and versatile as possible. This whay it can be used for many other projects...
+- x4 5v/12v Mosfets outputs
+- x5 configurable I/Os
+- reset pins for external reset button
